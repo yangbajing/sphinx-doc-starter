@@ -1,0 +1,17 @@
+子功能
+========
+
+.. code-block:: scala
+
+    package helloscala
+
+    // Scala内没有static方法，但有更统一的概念：object（单例对象类）
+    object Hello {
+
+      def main(args: Array[String]) {
+        println("Hello Scala!")
+      }
+
+    }
+
+
